@@ -1,0 +1,271 @@
+
+
+.Container-header{
+    margin: 0 auto;
+    height: 547px;
+    width: 100%;
+    left: -14px;
+    top: -12px;
+    background-image: url('https://s3-alpha-sig.figma.com/img/8071/6160/5b05877828ab21ed78e68d7f7ccfdd92?Expires=1597622400&Signature=LUDcfJR4bx3gHUrEAlsT-iZ67CyyD7atsxpWojSJuN7qSEC7cnXagkqRPBjD-mIObn6NwS3xUo1fFYc4YvFbTCWUmjMmMDMJWMPkSFAoZ7OQ822beq-HB7s-m~deCasAc0264~8myI3D6jGmz6V0VGpJgmMavAooXR-9~g4qfz-5rx~xv-0JwQS2Fq1LqSMLB7ooAqgmTbA0ISKfmXhPinAPruW6ZwS2FznzySAA0apeGRJrBAuXmz5n~XJ95cn85oVWJyX4ycSds48NZerji-HU3WJlppxRO4AqeA0LEbk1t~Jdzgg7tJsyfTUatxf6eIpI6DXp3F3Rz-Ia8aQk9w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+    background-size: cover;
+    background-position-y: -300px;
+    background-repeat: no-repeat;
+    
+}
+
+.wrap1-header{
+    margin:0;
+    width: 100%;
+    height: 74px;
+    Offset: 0px, 4px;
+    
+}
+
+.Left-header{
+    float: left;
+    padding-left: 60px ;
+}
+
+.Right-header{
+    float: right;
+    width:250px;
+    margin-top:1%;
+}
+
+.Right-header .button{
+    margin: 0 2%;
+    color: white;
+
+}
+
+.tittle{
+    position: absolute;
+    width: 715px;
+    height: 145px;
+    left: 93px;
+    top: 131px;
+}
+
+.tittle .thick{
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    color: #2c2d30;
+}
+
+.tittle .thin{
+    
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 58px;
+    line-height: 78px;
+    color: rgb(73, 70, 70);
+}
+
+.Container-header .search{
+    position: absolute;
+    width: 1350px;
+    height: 83px;
+    left: 90px;
+    top: 340px;
+}
+
+.Container-header .search  p{
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.search .input{
+    width: 1182px;
+    height: 50px;
+    left: 90px;
+    top: 373px;
+    border-radius: 5px 0px 0px 5px;
+    border: #FFFFFF;
+}
+
+.search .button{
+   
+    width:130px;
+    height: 50px;
+    border-radius: 0px 5px 5px 0px;
+    border: orange;
+    background-color: rgb(255, 187, 0);
+    color: white;
+}
+
+.Container-content{
+    height: fit-content;
+   width: 100%;
+   background-color:rgb(238, 227, 227);
+}
+
+.wrap1-content {
+  width: 80%;
+  margin:0 auto;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+
+.wrap1-content .card{
+    margin-top:-40px;
+    width: 200px;
+    height: 300px;
+    z-index:1;
+}
+
+.Container-content h1{
+    margin-top: 5%;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    text-align: center;
+    color: #000000;
+    border:none;
+    background-color: inherit;
+}
+
+.wrap2-content{
+    width:90%;
+    margin: 0 auto;
+    margin-top:70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-destination{
+    width: 350px;
+    height: 350px;
+    left: 127px;
+    top: 1056px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.card-destination img{
+    width: 333px;
+    height: 241px;
+    margin:2.5%;
+}
+
+.card-destination h2{
+    margin-left:2%;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.card-destination h4{
+    float: left;
+    margin-left: 2%;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFAF00;
+}
+
+.card-destination p{
+    float: right;
+    margin-right: 2%;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #878787;
+}
+
+.footer{
+    width: 100%;
+    height: 54px;
+    left: 2px;
+    top: 1945px; 
+    background: #FFAF00;
+}
+.footer p{
+    margin: 0;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 52px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* layer login & Register */
+
+.layer{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 2; 
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0, 0.9); 
+    overflow-x: hidden;
+    transition: 0.7s ;
+}
+
+.layer-content{
+    position: relative;
+    top: 15%;
+    height: 500px; 
+    width: 40%; 
+    text-align: center; 
+    margin: 0 auto;
+    background-image:url('https://tcoyd.org/wp-content/uploads/2019/02/palms.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.layer-content h1{
+    width:90%;
+    background-color: rgba(255, 255, 255, 0.719);
+    margin:5% auto;
+    padding: 1%;
+    font-weight: bolder;
+    color: rgba(122, 228, 0, 0.836);
+}
+.input-auth-form{
+    margin: 10px ;
+    height:50px;
+    width:500px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.layer button{
+    height:50px;
+    width:80px;
+    font-size: 20px;
+    color:white;
+    float:right;
+    margin:0;
+    background-color: red;
+    border-radius: 5px;;
+    border:1px solid white;
+}
+
+.layer-content button{
+    float: unset;
+    margin: 5px auto;
+    background-color: rgba(122, 228, 0, 0.836);
+}
